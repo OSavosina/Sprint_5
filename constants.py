@@ -1,10 +1,10 @@
 class Constants:
     MAIN_PAGE_URL = 'https://stellarburgers.nomoreparties.site'
-    CONSTRUCTOR_PAGE_URL = 'https://stellarburgers.nomoreparties.site/'
-    SIGN_IN_URL = 'https://stellarburgers.nomoreparties.site/login'
-    SIGN_UP_URL = 'https://stellarburgers.nomoreparties.site/register'
-    FORGOT_PASSWORD_URL = 'https://stellarburgers.nomoreparties.site/forgot-password'
-    USER_PROFILE_PAGE_URL = 'https://stellarburgers.nomoreparties.site/account/profile'
+    CONSTRUCTOR_PAGE_URL = f"{MAIN_PAGE_URL+'/'}"
+    SIGN_IN_URL = f"{MAIN_PAGE_URL+'/login'}"
+    SIGN_UP_URL = f"{MAIN_PAGE_URL+'/register'}"
+    FORGOT_PASSWORD_URL = f"{MAIN_PAGE_URL+'/forgot-password'}"
+    USER_PROFILE_PAGE_URL = f"{MAIN_PAGE_URL+'/account/profile'}"
 
 class UserLogin:
     USER_NAME = 'o.savosina'
